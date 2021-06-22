@@ -1,5 +1,5 @@
 - [1 MyBatis的开发流程](#1-MyBatis的开发流程)
-  * [1.1 引入MyBatis依赖(Maven)](#11---mybatis---maven-)
+  * [1.1 引入MyBatis依赖(Maven)](#11-引入MyBatis依赖Maven)
   * [1.2 创建核心配置文件](#12---------)
   * [1.3 初始化SessionFactory](#13----sessionfactory)
     + [SqlSessionFactory](#sqlsessionfactory)
