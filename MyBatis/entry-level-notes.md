@@ -1,7 +1,7 @@
 - [1 MyBatis的开发流程](#1-mybatis-----)
   * [1.1 引入MyBatis依赖（Maven）](#11---mybatis---maven-)
   * [1.2 创建核心配置文件](#12---------)
-  * [1.5 初始化SessionFactory](#15----sessionfactory)
+  * [1.3 初始化SessionFactory](#15----sessionfactory)
     + [SqlSessionFactory](#sqlsessionfactory)
     + [SqlSession](#sqlsession)
   * [初始化工具类MybatisUtils](#------mybatisutils)
@@ -112,7 +112,7 @@ Mybatis官网：https://mybatis.org/mybatis-3/zh/index.html
 
 
 
-## 1.5 初始化SessionFactory
+## 1.3 初始化SessionFactory
 
 ### SqlSessionFactory
 
