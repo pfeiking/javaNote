@@ -1,5 +1,31 @@
-[toc]
+- [1 MyBatis的开发流程](#1-mybatis-----)
+  * [1.1 引入MyBatis依赖（Maven）](#11---mybatis---maven-)
+  * [1.2 创建核心配置文件](#12---------)
+  * [1.5 初始化SessionFactory](#15----sessionfactory)
+    + [SqlSessionFactory](#sqlsessionfactory)
+    + [SqlSession](#sqlsession)
+  * [初始化工具类MybatisUtils](#------mybatisutils)
+- [2 数据查询](#2-----)
+  * [2.1 创建entity](#21---entity)
+  * [2.2 创建Mapper和编写\<select>SQL标签](#22---mapper-----select-sql--)
+  * [2.3 开启驼峰命名映射](#23---------)
+  * [2.4 SQL传参数](#24-sql---)
+    + [查询 \<select>](#-----select-)
+    + [传递单个参数，需要在goods.xml中添加select语句](#----------goodsxml---select--)
+    + [传递多个参数](#------)
+    + [获取多表关联查询结果](#----------)
+  * [2.5 ResultMap结果映射](#25-resultmap----)
+- [3 数据写入](#3-----)
+  * [3.1 数据库事务](#31------)
+  * [3.2 新增](#32---)
+  * [3.3 selectKey与useGeneratedKey](#33-selectkey-usegeneratedkey)
+    + [3.2.1 区别](#321---)
+    + [3.3.2 应用场景](#332-----)
+  * [3.4 更新](#34---)
+  * [3.5 删除](#35---)
+  * [3.6 SQL注入](#36-sql--)
 
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 # 1 MyBatis的开发流程
 
 Mybatis官网：https://mybatis.org/mybatis-3/zh/index.html
